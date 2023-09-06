@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1322" height="813" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="472" y="83" width="2" height="60" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="346" y="141" width="128" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="343" y="80" width="129" height="61" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" font-style="italic" text-anchor="middle" x="408" y="88">FileUpload</text>
+	<line stroke="black" stroke-opacity="1" x1="343" y1="98" x2="472" y2="98" />
+	<line stroke="black" stroke-opacity="1" x1="343" y1="104" x2="472" y2="104" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="346" y="112">TemporaryUpload()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="346" y="129">ClearTemp()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="742" y="431" width="2" height="276" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="654" y="705" width="90" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="651" y="428" width="91" height="277" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="697" y="436">Process</text>
+	<line stroke="black" stroke-opacity="1" x1="651" y1="446" x2="742" y2="446" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="654" y="454">order_id</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="654" y="471">name</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="654" y="488">done</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="654" y="505">date</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="654" y="522">user</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="654" y="539">line</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="654" y="556">step</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="654" y="573">stepSpan</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="654" y="590">req</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="654" y="607">avalible</text>
+	<line stroke="black" stroke-opacity="1" x1="651" y1="617" x2="742" y2="617" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="654" y="625">__construct()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="654" y="642">Create()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="654" y="659">Update()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="654" y="676">Delete()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="654" y="693">ProcessList()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="740" y="66" width="2" height="128" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="620" y="192" width="122" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="617" y="63" width="123" height="129" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" font-style="italic" text-anchor="middle" x="679" y="71">API</text>
+	<line stroke="black" stroke-opacity="1" x1="617" y1="81" x2="740" y2="81" />
+	<line stroke="black" stroke-opacity="1" x1="617" y1="87" x2="740" y2="87" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="620" y="95">Routing()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="620" y="112">Navigate()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="620" y="129">SetStatusDone()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="620" y="146">NewStatus()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="620" y="163">UploadNewOrder()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="620" y="180">ShowFile()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1190" y="29" width="2" height="208" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1094" y="235" width="98" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1091" y="26" width="99" height="209" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1141" y="34">User</text>
+	<line stroke="black" stroke-opacity="1" x1="1091" y1="44" x2="1190" y2="44" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1094" y="52">id</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1094" y="69">name</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1094" y="86">role</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1094" y="103">skills</text>
+	<line stroke="black" stroke-opacity="1" x1="1091" y1="113" x2="1190" y2="113" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1094" y="121">__construct()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1094" y="138">isAdmin()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1094" y="155">isModeller()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1094" y="172">getNamebyId()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1094" y="189">Login()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1094" y="206">Logout()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1094" y="223">GetUserData()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="317" y="157" width="2" height="60" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="213" y="215" width="106" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="210" y="154" width="107" height="61" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" font-style="italic" text-anchor="middle" x="264" y="162">ApiResponse</text>
+	<line stroke="black" stroke-opacity="1" x1="210" y1="172" x2="317" y2="172" />
+	<line stroke="black" stroke-opacity="1" x1="210" y1="178" x2="317" y2="178" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="213" y="186">ProcessStatus()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="213" y="203">OrderStatus()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="900" y="344" width="2" height="190" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="800" y="532" width="102" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="797" y="341" width="103" height="191" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" font-style="italic" text-anchor="middle" x="849" y="349">Sql</text>
+	<line stroke="black" stroke-opacity="1" x1="797" y1="359" x2="900" y2="359" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="800" y="367">con</text>
+	<line stroke="black" stroke-opacity="1" x1="797" y1="377" x2="900" y2="377" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="800" y="385">Connect()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="800" y="402">Disconnect()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="800" y="419">WhereBuilder()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="800" y="436">Querry()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="800" y="453">Select()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="800" y="470">UnTrim()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="800" y="487">Insert()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="800" y="504">Update()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="800" y="521">Delete()</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="691" y1="427" x2="681" y2="195" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="475" y1="115" x2="616" y2="124" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1090" y1="184" x2="903" y2="380" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="743" y1="129" x2="1090" y2="131" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="320" y1="177" x2="616" y2="137" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="745" y1="526" x2="796" y2="482" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="604" y="392" width="2" height="128" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="460" y="518" width="146" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="457" y="389" width="147" height="129" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" font-style="italic" text-anchor="middle" x="531" y="397">Utils</text>
+	<line stroke="black" stroke-opacity="1" x1="457" y1="407" x2="604" y2="407" />
+	<line stroke="black" stroke-opacity="1" x1="457" y1="413" x2="604" y2="413" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="460" y="421">GetURLParams()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="460" y="438">GetBodyParams()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="460" y="455">GetFilesFromURL()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="460" y="472">Debug()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="460" y="489">getStartAndEndDate()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="460" y="506">test_input()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1307" y="304" width="2" height="496" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1005" y="798" width="304" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1002" y="301" width="305" height="497" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1155" y="309">Shoe</text>
+	<line stroke="black" stroke-opacity="1" x1="1002" y1="319" x2="1307" y2="319" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="327">orderId</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="344">title</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="361">location</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="378">carring</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="395">status</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="412">orderDate</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="429">deadlineDate</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="446">finishDate</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="463">processes</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="480">note</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="497">avalibleprocesses</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="514">files</text>
+	<line stroke="black" stroke-opacity="1" x1="1002" y1="524" x2="1307" y2="524" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="532">Create()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="549">FileListUpdate()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="566">UpdateFromArray()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="583">GetAllHasLocation()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="600">GetOrder()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="617">GetOrdersByLike()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="634">GetOrders()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="651">GetAvalibleOrders()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="668">ProcessFill()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="685">GetOrdersWithAvalibleProcessForUser()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="702">GetOrdersWithAvalibleProcessForUserExtend()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="719">GetNonreadyOrders()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="736">GetArchiveOrders()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="1005" y="753">GetShoesByWeek()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="770">__construct()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1005" y="787">InLocation()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="255" y="638" width="2" height="94" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="101" y="730" width="156" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="98" y="635" width="157" height="95" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" font-style="italic" text-anchor="middle" x="177" y="643">OrderCards</text>
+	<line stroke="black" stroke-opacity="1" x1="98" y1="653" x2="255" y2="653" />
+	<line stroke="black" stroke-opacity="1" x1="98" y1="659" x2="255" y2="659" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="101" y="667">CreateCardsinnerHtml()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="101" y="684">FileList()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="101" y="701">ShoeStatusClass()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="101" y="718">CreatePerkTreeTable()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="369" y="254" width="2" height="42" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="291" y="294" width="80" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="288" y="251" width="81" height="43" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" font-style="italic" text-anchor="middle" x="329" y="259">Details</text>
+	<line stroke="black" stroke-opacity="1" x1="288" y1="269" x2="369" y2="269" />
+	<line stroke="black" stroke-opacity="1" x1="288" y1="275" x2="369" y2="275" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="291" y="283">Workpage()</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="560" y1="388" x2="648" y2="195" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1001" y1="493" x2="903" y2="457" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1001" y1="412" x2="743" y2="184" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1001" y1="556" x2="745" y2="565" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="1001,556 995,562 989,556 994,550" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1147" y1="300" x2="1144" y2="238" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="1147,300 1140,294 1146,288 1152,293" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="361" y="441" width="2" height="110" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="237" y="549" width="126" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="234" y="438" width="127" height="111" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" font-style="italic" text-anchor="middle" x="298" y="446">BaseView</text>
+	<line stroke="black" stroke-opacity="1" x1="234" y1="456" x2="361" y2="456" />
+	<line stroke="black" stroke-opacity="1" x1="234" y1="462" x2="361" y2="462" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="237" y="470">BaseSite()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="237" y="487">BaseSiteNav()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="237" y="504">OrderList()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="237" y="521">OrderListByWeek()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="237" y="538">ListAllCards()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="179" y="411" width="2" height="42" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="133" y="451" width="48" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="130" y="408" width="49" height="43" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" font-style="italic" text-anchor="middle" x="155" y="416">Login</text>
+	<line stroke="black" stroke-opacity="1" x1="130" y1="426" x2="179" y2="426" />
+	<line stroke="black" stroke-opacity="1" x1="130" y1="432" x2="179" y2="432" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="133" y="440">Form()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="246" y="294" width="2" height="60" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="106" y="352" width="142" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="103" y="291" width="143" height="61" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" font-weight="bold" font-style="italic" text-anchor="middle" x="175" y="299">NewOrder</text>
+	<line stroke="black" stroke-opacity="1" x1="103" y1="309" x2="246" y2="309" />
+	<line stroke="black" stroke-opacity="1" x1="103" y1="315" x2="246" y2="315" />
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="106" y="323">SelectLocationForm()</text>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" text-decoration="underline" x="106" y="340">OrderDetailsForm()</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="616" y1="188" x2="356" y2="437" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="182" y1="443" x2="233" y2="465" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="364" y1="482" x2="456" y2="466" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="198" y1="355" x2="257" y2="437" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="208" y1="634" x2="258" y2="552" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="326" y1="297" x2="305" y2="437" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="1113" y="286">0..1</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="7" fill="#000000" xml:space="preserve" x="970" y="571">0..*</text>
+</g>
+</svg>
